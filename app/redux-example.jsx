@@ -1,6 +1,6 @@
 
 // let redux = require('redux')
-import { createStore } from 'redux'
+import { createStore, compose } from 'redux'
 
 
 console.log('starting redux example')
@@ -17,12 +17,27 @@ let reducer = (state = {name: 'Anon'}, action) => {
   }
 }
 
-let store = createStore(reducer)
+let store = createStore(reducer,
+  // compose(window.devToolsExtension ? window.devToolsExtension() : f => f
+   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+)
+
+// subscribe to CHANGE_SEARCHTEXT
+let unsubscribe = store.subscribe(() => {
+  let state = store.getState()
+
+  console.log('Name is', state.name)
+  document.getElementById('app').innerHTML = state.name
+})
+// unsubscribe();
 
 
-let action = {
+store.dispatch({
   type: 'CHANGE_NAME',
   name: 'Jason Rez'
-}
-store.dispatch(action)
-console.log('currentState',store.getState())
+})
+
+store.dispatch({
+  type: 'CHANGE_NAME',
+  name: 'NeonSkull'
+})

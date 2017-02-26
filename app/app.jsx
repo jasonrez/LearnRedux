@@ -8,10 +8,10 @@ $(document).foundation();
 //App css
 require('style!css!sass!applicationStyles');
 
-ReactDOM.render(
-<p>Boiler Plate 3 Project</p>,
-  document.getElementById('app')
-);
+// ReactDOM.render(
+// <p>Boiler Plate 3 Project</p>,
+//   document.getElementById('app')
+// );
 
 
 //import './redux-example.jsx'
