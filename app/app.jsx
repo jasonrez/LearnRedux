@@ -13,6 +13,6 @@ ReactDOM.render(
   document.getElementById('app')
 );
 
-//require('./redux-example.jsx')
+
 //import './redux-example.jsx'
 import './redux-todo-example.jsx'
