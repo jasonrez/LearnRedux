@@ -1,21 +1,18 @@
-import redux from 'redux'
+// import redux from 'redux'
+// let redux = require('redux')
+import { createStore } from 'redux'
+
 
 console.log('starting redux example')
 
-function add (a,b) {
-  return  a + b
+let reducer = (state = {name: 'Jason'}, action) => {
+
+
+  return state
 }
 
-let person = {
-  name: 'steve',
-  age: 7
-}
+let store = createStore(reducer)
 
-function update (person) {
-  return {
-    ...person,
-    name: 'Phil'
-  }
-}
+let currentState = store.getState()
 
-console.log(update(person));
+console.log(currentState)
