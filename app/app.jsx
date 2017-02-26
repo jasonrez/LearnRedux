@@ -12,3 +12,6 @@ ReactDOM.render(
 <p>Boiler Plate 3 Project</p>,
   document.getElementById('app')
 );
+
+//require('./redux-example.jsx')
+import './redux-example.jsx'

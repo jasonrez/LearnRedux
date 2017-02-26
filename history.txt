@@ -1,0 +1,1000 @@
+ 1002  sudo service network-manager restart
+ 1003  sudo service network-manager 
+ 1004  man network-manager
+ 1005  man service
+ 1006  man bc
+ 1007  man printf
+ 1008  man for
+ 1009  apropos man
+ 1010  apropos for
+ 1011  apropos for | less
+ 1012  echo ls
+ 1013  echo $(ls)
+ 1014  echo $ls
+ 1015  echo $(ls)
+ 1016  node
+ 1017  node basicRouting.js 
+ 1018  gedit
+ 1019  node basicRouting.js 
+ 1020  ls
+ 1021  tsc greeter.ts 
+ 1022  npm install --save typescript
+ 1023  create tsconfig.json project file
+ 1024  Create tsconfig.json project file
+ 1025  nano
+ 1026  node timeout
+ 1027  nano timeout.js
+ 1028  node timeout
+ 1029  sudo npm install -g typescript
+ 1030  sudo ./atom
+ 1031  atom
+ 1032  sudo atom ./
+ 1033  chown 
+ 1034  chown --help
+ 1035  ls -i
+ 1036  ls -l
+ 1037  sudo chown jason ./
+ 1038  ls -l
+ 1039  sudo chown $(whoami) /usr/local/
+ 1040  npm
+ 1041  npm install --global yo
+ 1042  sudo npm install --global yo
+ 1043  ls
+ 1044  cd Doc
+ 1045  cd Documents/
+ 1046  ls
+ 1047  git
+ 1048  git clone https://github.com/mancjs/code-and-conquer.git
+ 1049  ls
+ 1050  cd code-and-conquer/
+ 1051  ls
+ 1052  sudo npm install
+ 1053  ls
+ 1054  node start.js 
+ 1055  cd server/
+ 1056  ls
+ 1057  cd account/
+ 1058  ls
+ 1059  node server.js 
+ 1060  cd
+ 1061  sudo curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+ 1062  sudo apt-get install -y nodejs
+ 1063  node -v
+ 1064  node 
+ 1065  cd Documents/
+ 1066  cd scratchpad/
+ 1067  cd ../
+ 1068  cd code-and-conquer/
+ 1069  ls
+ 1070  node start.js 
+ 1071  cd ../
+ 1072  cd scratchpad/
+ 1073  ls
+ 1074  cd netninja/
+ 1075  ls
+ 1076  node basicRouting.js 
+ 1077  sudo service network-manager restart
+ 1078  sudo npm install typings -g --save-dev
+ 1079  typings install dt~require --save --global
+ 1080  apm install linter
+ 1081  apm install atom-typescript
+ 1082  cd Documents/
+ 1083  cd scratchpad/
+ 1084  cd netninja/
+ 1085  ls
+ 1086  sudo atom ./
+ 1087  ts
+ 1088  history
+ 1089  tsc
+ 1090  tsc -h
+ 1091  tsc --help
+ 1092  tsc -- init
+ 1093  tsc --init
+ 1094  sudo atom ./
+ 1095  typings install --save --ambient node
+ 1096  ls
+ 1097  sudo typings install --save --ambient node
+ 1098  sudo typings install --save --global node
+ 1099  sudo atom ./
+ 1100  cd ../
+ 1101  cd Nominator/
+ 1102  cd housemates-profile/
+ 1103  ls
+ 1104  ls > houseThumbs.txt
+ 1105  cmatrix
+ 1106  fortune | cowsay
+ 1107  fortune
+ 1108  nodemon server'js
+ 1109  nodemon server.js
+ 1110  nodemon server.js
+ 1111  nodemon server/server.js
+ 1112  top
+ 1113  cd Documents/
+ 1114  ls
+ 1115  cd Nominator/
+ 1116  sudo atom ./
+ 1117  echo "lewis is lazy making breakfast today" | cowsay
+ 1118  cmatrix
+ 1119  nyan
+ 1120  nyam
+ 1121  nyan
+ 1122  cmatrix
+ 1123  sudo atom ./
+ 1124  history
+ 1125  top
+ 1126  pkill
+ 1127  lsof
+ 1128  history grep lsof
+ 1129  history | grep lsof
+ 1130  man lsof
+ 1131  lsof | grep 3000
+ 1132  history | grep kill
+ 1133  lsof -i TCP
+ 1134  lsof -i TCP 3000
+ 1135  lsof -i TCP3000
+ 1136  lsof -i TCP.3000
+ 1137  lsof -i TCP:3000
+ 1138  history tcp
+ 1139  history | grep tcp
+ 1140  history | grep TCP
+ 1141  lsof -i :3000
+ 1142  nodemon server/server.js
+ 1143  nodemon server/server.js
+ 1144  npm init
+ 1145  node server/server.js
+ 1146  nodemon server/server.js
+ 1147  sudo npm install --save url
+ 1148  nodemon server/server.js
+ 1149  sudo npm uninstall url
+ 1150  nodemon server/server.js
+ 1151  sudo npm install --save angular
+ 1152  nodemon server/server.js
+ 1153  clear
+ 1154  nodemon server/server.js
+ 1155  clear
+ 1156  nodemon server/server.js
+ 1157  sudo npm install --save bootstrap
+ 1158  nodemon server/server.js
+ 1159  sudo npm uninstall bootstrap
+ 1160  sudo npm uninstall angular
+ 1161  nodemon server/server.js
+ 1162  ls
+ 1163  cd Documents/
+ 1164  ls
+ 1165  cd Nominator/
+ 1166  ls
+ 1167  sudo atom ./
+ 1168  gedit &
+ 1169  cd ../
+ 1170  ls
+ 1171  cd /media
+ 1172  ls
+ 1173  cd jason
+ 1174  ls
+ 1175  cd DATA/
+ 1176  ls
+ 1177  cd jason/
+ 1178  ls
+ 1179  cd website/
+ 1180  ls
+ 1181  cd christopher/
+ 1182  cd 960grid/
+ 1183  ls
+ 1184  cd public/
+ 1185  ls
+ 1186  cd server/
+ 1187  ls
+ 1188  git
+ 1189  git status
+ 1190  git commit -a
+ 1191  git status
+ 1192  git add -A
+ 1193  git status
+ 1194  git commit
+ 1195  git status
+ 1196  git remote -v
+ 1197  git push heroku master
+ 1198  sudo atom ./
+ 1199  cd
+ 1200  cd Documents/
+ 1201  ls
+ 1202  cd Nominator/
+ 1203  ls
+ 1204  sudo atom ./
+ 1205  mkdir mancjs
+ 1206  cd mancjs/
+ 1207  sudo git clone https://github.com/mancjs/code-and-conquer.git
+ 1208  node --version
+ 1209  ls
+ 1210  cd code-and-conquer/
+ 1211  ls
+ 1212  node start
+ 1213  npm install
+ 1214  cd ../
+ 1215  rmdir code-and-conquer/
+ 1216  rmdir -f  code-and-conquer/
+ 1217  cd ../
+ 1218  git clone https://github.com/chrismatheson/code-and-conquer-client.git
+ 1219  ls
+ 1220  cd code-and-conquer-client/
+ 1221  ls
+ 1222  npm install
+ 1223  sudo npm install
+ 1224  ls
+ 1225  node client.js 
+ 1226  clear
+ 1227  ls
+ 1228  atom ./
+ 1229  ls
+ 1230  node client.js 
+ 1231  node client.js query-owner "cpu"
+ 1232  node client.js 
+ 1233  node client.js query-owner "cpu"
+ 1234  node run.js
+ 1235  ls
+ 1236  cd ../
+ 1237  git clone https://github.com/mancjs/code-and-conquer-client.git
+ 1238  mkdir mancjs2
+ 1239  git clone https://github.com/mancjs/code-and-conquer-client.git
+ 1240  cd mancjs2
+ 1241  git clone https://github.com/mancjs/code-and-conquer-client.git
+ 1242  cd code-and-conquer-client/
+ 1243  ls
+ 1244  atom ./
+ 1245  node run
+ 1246  npm install
+ 1247  node run.js
+ 1248  node run
+ 1249  nodemon run
+ 1250  node run
+ 1251  node run.js 
+ 1252  ls
+ 1253  cd ./
+ 1254  cd ../
+ 1255  ls
+ 1256  cd ../
+ 1257  ls
+ 1258  cd manjs
+ 1259  cd mancjs
+ 1260  ls
+ 1261  cd code-and-conquer/
+ 1262  ls
+ 1263  node start.js 
+ 1264  npm install
+ 1265  sudo npm install
+ 1266  node start.js 
+ 1267  node start.js start-game
+ 1268  gedit
+ 1269  cd mancjs
+ 1270  cd code-and-conquer/
+ 1271  ls
+ 1272  atom ./
+ 1273  sudo atom./
+ 1274  sudo atom ./
+ 1275  cd Doc
+ 1276  cd Documents/
+ 1277  ls
+ 1278  cd Nominator/
+ 1279  ls
+ 1280  sudo atom ./
+ 1281  cmatrix
+ 1282  fortune
+ 1283  cmatrix
+ 1284  node server/server.js
+ 1285  nodemon server/server.js
+ 1286  node start.js 
+ 1287  game-start
+ 1288  services network-manager restart
+ 1289  service network-manager restart
+ 1290  history | grep network
+ 1291  sudo service network-manager restart
+ 1292  lscpu
+ 1293  sudo services network-manager restart
+ 1294  sudo service network-manager restart
+ 1295  sudo services network-manager restart
+ 1296  sudo service network-manager restart
+ 1297  sudo service network-manager restart -i
+ 1298  sudo service network-manager restart -v
+ 1299  sudo service network-manager restart --V
+ 1300  ls
+ 1301  sudo ls
+ 1302  sudo service network-manager restart --V
+ 1303  sudo network service restart
+ 1304  sudo network-manager service restart
+ 1305  sudo service network-manager restart
+ 1306  lsof
+ 1307  lsof | grep 3000
+ 1308  history
+ 1309  history | grep lsof
+ 1310  surge
+ 1311  surge --domain neonskull.surge.sh
+ 1312  surge
+ 1313  sudo network-manager service restart
+ 1314  sudo service network-manager restart 
+ 1315  sudo npm install --global surge
+ 1316  ls
+ 1317  sudo service network-manager restart 
+ 1318  ls
+ 1319  cd Dcd Documents/
+ 1320  ls
+ 1321  mkdir reactProjects
+ 1322  cd reactProjects/
+ 1323  l
+ 1324  mkdir codeSchool
+ 1325  cd codeSchool/
+ 1326  npm init
+ 1327  npm i -S react
+ 1328  npm i -S react-dom
+ 1329  npm install --save-dev babel-core babel-loder babel-preset-react
+ 1330  npm install --save-dev babel-core babel-loader babel-preset-react
+ 1331  touch 
+ 1332  touch .babelrc
+ 1333  ls
+ 1334  echo { preset : ['react'} ] > .babelrc
+ 1335  ls
+ 1336  npm install --save-dev webpack webpack-dev-server html-webpack-plugin
+ 1337  npm run build
+ 1338  npm run start
+ 1339  npm run build
+ 1340  npm run start
+ 1341  lsof | grep 8080
+ 1342  lsof
+ 1343  man lsof
+ 1344  lsof TCP:8080
+ 1345  history | grep TCP
+ 1346  lsof -i
+ 1347  lsof -i TCP:8080
+ 1348  kill 18260
+ 1349  npm run start
+ 1350  ls
+ 1351  ps aux
+ 1352  ps aux | grep node
+ 1353  ps aux | grep 8080
+ 1354  ps aux | grep tcp
+ 1355  ps aux | grep TCP
+ 1356  ps aux | grep webpack
+ 1357  kill 18259
+ 1358  npm run start
+ 1359  ps aux | grep 127.0.0.1
+ 1360  sudo fuser -k 8080/tcp
+ 1361  npm run start
+ 1362  npm run build
+ 1363  ls
+ 1364  cd reactProjects/
+ 1365  ls
+ 1366  cd codeSchool/
+ 1367  ls
+ 1368  npm install --save-dev babel-preset-es2015
+ 1369  npm run build
+ 1370  ls
+ 1371  cd ..
+ 1372  ls
+ 1373  cd attempt2/
+ 1374  ls
+ 1375  babel
+ 1376  ls
+ 1377  npm install react react-dom
+ 1378  npm install babel-cli
+ 1379  babel
+ 1380  babel app.jsx 
+ 1381  npm install --save-dev babel-cli
+ 1382  build
+ 1383  npm build
+ 1384  ls
+ 1385  npm run build
+ 1386  npm install --save-dev babel-register
+ 1387  node register.js
+ 1388  npm install --save-dev babel-preset-es2015
+ 1389  npm install --save-dev babel-preset-react
+ 1390  node register.js
+ 1391  ls
+ 1392  npm run build
+ 1393  npm install --save-dev webpack
+ 1394  webpack
+ 1395  ls
+ 1396  webpack ./lib/app.js
+ 1397  npm install --save-dev webpack
+ 1398  webpack -ver
+ 1399  webpack 
+ 1400  node_module/.bin/webpack
+ 1401  node_modules/.bin/webpack
+ 1402  ls
+ 1403  npm run build
+ 1404  node_modules/.bin/webpack
+ 1405  npm run build
+ 1406  node_modules/.bin/webpack
+ 1407  npm run build
+ 1408  node_modules/.bin/webpack
+ 1409  node_modules/.bin/webpackcls
+ 1410  clear
+ 1411  ls
+ 1412  node_modules/.bin/webpack
+ 1413  sudo service network-manager restart 
+ 1414  node register.js
+ 1415  node_modules/.bin/babel 
+ 1416  node_modules/.bin/webpack
+ 1417  npm run build
+ 1418  node_modules/.bin/webpack
+ 1419  npm run build
+ 1420  node_modules/.bin/webpack
+ 1421  npm run build
+ 1422  node_modules/.bin/webpack
+ 1423  npm run build
+ 1424  node_modules/.bin/webpack
+ 1425  npm run build
+ 1426  node_modules/.bin/webpack
+ 1427  npm run build
+ 1428  node_modules/.bin/webpack
+ 1429  npm run build
+ 1430  node_modules/.bin/webpack
+ 1431  npm run build
+ 1432  node_modules/.bin/webpack
+ 1433  npm run build
+ 1434  node_modules/.bin/webpack
+ 1435  npm run build
+ 1436  node_modules/.bin/webpack
+ 1437  npm run build
+ 1438  node_modules/.bin/webpack
+ 1439  npm run build
+ 1440  node_modules/.bin/webpack
+ 1441  npm run build
+ 1442  node_modules/.bin/webpack
+ 1443  npm run build
+ 1444  node_modules/.bin/webpack
+ 1445  npm run build
+ 1446  node_modules/.bin/webpack
+ 1447  npm run build
+ 1448  node_modules/.bin/webpack
+ 1449  npm run build
+ 1450  node_modules/.bin/webpack
+ 1451  npm run build
+ 1452  node_modules/.bin/webpack
+ 1453  npm run build
+ 1454  node_modules/.bin/webpack
+ 1455  npm run build
+ 1456  npm install express
+ 1457  express --v
+ 1458  express --ver
+ 1459  express -v
+ 1460  express -ver
+ 1461  express -V
+ 1462  node server.js
+ 1463  node_modules/.bin/webpack
+ 1464  npm run build
+ 1465  node server.js
+ 1466  node_modules/.bin/webpack
+ 1467  node server.js
+ 1468  npm run build
+ 1469  node_modules/.bin/webpack
+ 1470  node server.js
+ 1471  npm run build
+ 1472  node_modules/.bin/webpack
+ 1473  node server.js
+ 1474  npm run build
+ 1475  node_modules/.bin/webpack
+ 1476  node server.js
+ 1477  npm run build
+ 1478  node_modules/.bin/webpack
+ 1479  node server.js
+ 1480  npm run build
+ 1481  node_modules/.bin/webpack
+ 1482  node server.js
+ 1483  webpack
+ 1484  node_modules/.bin/webpack
+ 1485  npm install babel-loader
+ 1486  node_modules/.bin/webpack
+ 1487  npm install babel-preset-stage-0
+ 1488  node_modules/.bin/webpack
+ 1489  node server.js
+ 1490  node_modules/.bin/webpack
+ 1491  node server.js
+ 1492  node_modules/.bin/webpack
+ 1493  node server.js
+ 1494  node_modules/.bin/webpack
+ 1495  node server.js
+ 1496  node_modules/.bin/webpack
+ 1497  node server.js
+ 1498  node_modules/.bin/webpack
+ 1499  node server.js
+ 1500  node_modules/.bin/webpack
+ 1501  node server.js
+ 1502  node_modules/.bin/webpack
+ 1503  node server.js
+ 1504  node_modules/.bin/webpack
+ 1505  node server.js
+ 1506  node_modules/.bin/webpack
+ 1507  node server.js
+ 1508  node_modules/.bin/webpack
+ 1509  node server.js
+ 1510  node_modules/.bin/webpack
+ 1511  node server.js
+ 1512  node_modules/.bin/webpack
+ 1513  node server.js
+ 1514  node_modules/.bin/webpack
+ 1515  node server.js
+ 1516  node_modules/.bin/webpack
+ 1517  node server.js
+ 1518  node_modules/.bin/webpack
+ 1519  node server.js
+ 1520  node_modules/.bin/webpack
+ 1521  node server.js
+ 1522  node_modules/.bin/webpack
+ 1523  node server.js
+ 1524  node_modules/.bin/webpack
+ 1525  node server.js
+ 1526  node_modules/.bin/webpack
+ 1527  node server.js
+ 1528  node_modules/.bin/webpack
+ 1529  node server.js
+ 1530  node_modules/.bin/webpack
+ 1531  node server.js
+ 1532  node_modules/.bin/webpack
+ 1533  node server.js
+ 1534  node_modules/.bin/webpack
+ 1535  node server.js
+ 1536  node_modules/.bin/webpack
+ 1537  node server.js
+ 1538  node_modules/.bin/webpack
+ 1539  node server.js
+ 1540  node_modules/.bin/webpack
+ 1541  node server.js
+ 1542  node_modules/.bin/webpack
+ 1543  node server.js
+ 1544  node_modules/.bin/webpack
+ 1545  node server.js
+ 1546  node_modules/.bin/webpack
+ 1547  node server.js
+ 1548  node_modules/.bin/webpack
+ 1549  node server.js
+ 1550  node_modules/.bin/webpack
+ 1551  node server.js
+ 1552  node_modules/.bin/webpack
+ 1553  node server.js
+ 1554  node_modules/.bin/webpack
+ 1555  node server.js
+ 1556  npm install
+ 1557  npm start
+ 1558  webpack
+ 1559  npm start
+ 1560  webpack -w
+ 1561  sudo service network-manager restart
+ 1562  npm start
+ 1563  git 
+ 1564  git clone https://github.com/jasonrez/webpack-boilerplate.git
+ 1565  npm install
+ 1566  webpack
+ 1567  npm start
+ 1568  npm install react-router --save
+ 1569  webpack
+ 1570  webpack -w
+ 1571  npm start
+ 1572  ssh -T git@github.com
+ 1573  curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+ 1574  sudo apt-get update
+ 1575  webpack -w
+ 1576  npm install axios --save
+ 1577  webpack -w
+ 1578  git --version
+ 1579  git status
+ 1580  sudo service network-manager restart
+ 1581  git status
+ 1582  git init
+ 1583  git add .gitignore 
+ 1584  git status
+ 1585  git add .
+ 1586  git status
+ 1587  git commit -m 'initial commit'
+ 1588  git status
+ 1589  git add .
+ 1590  git commit -m 'Added readme'
+ 1591  git status
+ 1592  ls -al ~/.shh
+ 1593  ls -al ~/.ssh
+ 1594  eval "$(ssh-agent -s)"
+ 1595  ls -al ~/.ssh
+ 1596  ssh-add ~/.ssh/id_rsa
+ 1597  ssh-keygen -t rsa -b 4096 -C 'jasonrez@hotmail.co.uk'
+ 1598  more ~/.ssh/id_rsa.pub
+ 1599  ssh -T git@gitub.com
+ 1600  ssh -T git@github.com
+ 1601  git remote add origin https://github.com/jasonrez/ReactWeather.git
+ 1602  git remote rm orgin
+ 1603  git remote rm origin
+ 1604  git remote add origin https://github.com/jasonrez/ReactWeather.git
+ 1605  git remote -v
+ 1606  git branch
+ 1607  git status
+ 1608  git add .
+ 1609  git status
+ 1610  git commit -a -m 'deleted boilerplate readme file'
+ 1611  git status
+ 1612  git -u origin master
+ 1613  git push -u origin master
+ 1614  git status
+ 1615  git commit -a -m 'Added copy'
+ 1616  git push
+ 1617  git push origin master
+ 1618  git remote add origin git@github.com:jasonrez/ReactWeather.git
+ 1619  git remote rm origin
+ 1620  git remote add origin git@github.com:jasonrez/ReactWeather.git
+ 1621  git push origin master
+ 1622  node example-promise.js 
+ 1623  npm start
+ 1624  node example-arrow-functions.js 
+ 1625  npm start
+ 1626  webpack -w
+ 1627  git status
+ 1628  webpack
+ 1629  git status
+ 1630  git commit -am 'Rename example page'
+ 1631  git push origin master
+ 1632  git push heroku master
+ 1633  webpack -w
+ 1634  git status
+ 1635  git commit -am 'Stlye nav bar'
+ 1636  git push
+ 1637  git push heroku master
+ 1638  heroku open
+ 1639  webpack -w
+ 1640  git status
+ 1641  git add .
+ 1642  git status
+ 1643  git commit -m 'Add error modal'
+ 1644  git push
+ 1645  git push heroku master
+ 1646  webpack -w
+ 1647  git status
+ 1648  git commit -am 'added own error for nav search'
+ 1649  git commit
+ 1650  git push
+ 1651  git push heroku master
+ 1652  webpack -w
+ 1653  git status
+ 1654  git add .
+ 1655  git status
+ 1656  git commit -m 'Added styles for page titles'
+ 1657  git push
+ 1658  git push heroku master
+ 1659  npm install sass-loader node-sass --save-dev
+ 1660  webpack -w
+ 1661  git status
+ 1662  git add .
+ 1663  git status
+ 1664  git commit -m 'Switched to scss'
+ 1665  git push
+ 1666  git push heroku master
+ 1667  webpack -w
+ 1668  git status
+ 1669  git commit -am 'fixed all search features'
+ 1670  git push
+ 1671  git push heroku master
+ 1672  webpack -w
+ 1673  git status
+ 1674  git commit -am 'fixed error modal button''
+ 1675  '
+ 1676  git push
+ 1677  git push heroku master
+ 1678  ed Example page'
+ 1679  git push
+ 1680  git push heroku master
+ 1681  npm start
+ 1682  git status
+ 1683  git commit -am 'About page copy'
+ 1684  git push
+ 1685  git push heroku master
+ 1686  npm start
+ 1687  git status
+ 1688  git commit -am 'add styles to weather page'
+ 1689  git push
+ 1690  git push heroku master
+ 1691  git status
+ 1692  npm start
+ 1693  git status
+ 1694  npm start
+ 1695  git@github.com:jasonrez/ReactBoilerplate2.git
+ 1696  git clone git@github.com:jasonrez/ReactBoilerplate2.git
+ 1697  ls
+ 1698  cd ReactBoilerplate2/
+ 1699  ls
+ 1700  git init
+ 1701  git add .
+ 1702  git commit -am 'initial commit ReactTimerApp'
+ 1703  git status
+ 1704  git remote add origin git@github.com:jasonrez/ReactTimerApp.git
+ 1705  git push
+ 1706  git push -u
+ 1707  git push -u origin master
+ 1708  git push
+ 1709  git status
+ 1710  npm install
+ 1711  webpack
+ 1712  npm install -g webpack
+ 1713  sudo npm install -g webpack
+ 1714  webpack
+ 1715  npm install --save foundation
+ 1716  webpack
+ 1717  sudo npm install
+ 1718  webpack
+ 1719  npm install --save-dev foundation-sites@5
+ 1720  npm install --save foundation@4
+ 1721  npm install --save foundation
+ 1722  npm install
+ 1723  webpack
+ 1724  npm install --save-dev foundation
+ 1725  npm insatll
+ 1726  npm install
+ 1727  webpack
+ 1728  ls
+ 1729  npm install --save-dev foundation-sites
+ 1730  webpack
+ 1731  node server.js
+ 1732  git status
+ 1733  git add .
+ 1734  git status
+ 1735  git commit -am 'Added navigation'
+ 1736  git push
+ 1737  git status
+ 1738  heroku
+ 1739  heroku login
+ 1740  heroku create
+ 1741  git push heroku master
+ 1742  heroku open
+ 1743  open http://www.google.co.uk
+ 1744  git remote -v
+ 1745  npm install karma@0.13.22 karma-chrome-launcher@0.2.2 karma-mocha@0.2.2 karma-mocha-reporter@2.0.0 karma-sourcemap-loader@0.3.7 karma-webpack@1.7.0 mocha@2.4.5 expect@1.14.0 --save-dev
+ 1746  npm test
+ 1747  webpack
+ 1748  npm test
+ 1749  git status
+ 1750  git add .
+ 1751  git status
+ 1752  git commit -m 'add automatic tests'
+ 1753  git push
+ 1754  git status
+ 1755  npm test
+ 1756  mocha
+ 1757  mocha --reporters
+ 1758  npm test
+ 1759  webpack -w
+ 1760  git status
+ 1761  git add .
+ 1762  git commit -m 'add navigation'
+ 1763  git push
+ 1764  git push heroku master
+ 1765  heroku open
+ 1766  git status
+ 1767  npm test
+ 1768  ls
+ 1769  webpack -w
+ 1770  webpack --watch
+ 1771  webpack 
+ 1772  webpack
+ 1773  ls
+ 1774  cd ReactTimerApp/
+ 1775  webpack -w
+ 1776  npm start
+ 1777  ls
+ 1778  cd ReactTimerApp/
+ 1779  webpack -w
+ 1780  cd ReactTimerApp/
+ 1781  ls
+ 1782  npm start
+ 1783  git status
+ 1784  git add .
+ 1785  git commit -m 'Added clock feature and tests'
+ 1786  git push
+ 1787  git push heroku master
+ 1788  heroku open
+ 1789  npm start
+ 1790  npm test
+ 1791  git status
+ 1792  git add .
+ 1793  git commit -m 'Add countdown component and tests'
+ 1794  git push
+ 1795  git status
+ 1796  npm test
+ 1797  webpack -w
+ 1798  npm start
+ 1799  npm test
+ 1800  git status
+ 1801  git add .
+ 1802  git commit -m 'add statis controls component'
+ 1803  git push
+ 1804  npm test
+ 1805  git status
+ 1806  git add .
+ 1807  git commit -m 'wireup controls conponent'
+ 1808  git push
+ 1809  git push heroku master
+ 1810  heroku open
+ 1811  npm start
+ 1812  sudo service network-manager restart
+ 1813  npm test
+ 1814  npm test
+ 1815  webpack
+ 1816  npm start
+ 1817  git status
+ 1818  git add .
+ 1819  git comit -m 'created timer component'
+ 1820  git commit -m 'created timer component'
+ 1821  git push
+ 1822  git push heroku master
+ 1823  heroku open
+ 1824  webpack
+ 1825  npm test
+ 1826  webpack
+ 1827  npm test
+ 1828  webpack
+ 1829  npm start
+ 1830  git remote -v
+ 1831  npm start
+ 1832  npm install
+ 1833  npm start
+ 1834  webpack -w
+ 1835  git status
+ 1836  git add .
+ 1837  git commit -m 'Add static todo list'
+ 1838  git push
+ 1839  git push heroku master
+ 1840  heroku open
+ 1841  npm test
+ 1842  git status
+ 1843  git add .
+ 1844  git commit -m 'add test suite for TodoList component'
+ 1845  git push
+ 1846  git status
+ 1847  cleare
+ 1848  clear
+ 1849  clr
+ 1850  clear
+ 1851  npm test
+ 1852  webpack -w
+ 1853  heroku create
+ 1854  git remote
+ 1855  git status
+ 1856  git add .
+ 1857  git commit -m 'initial commit'
+ 1858  git push
+ 1859  git push heroku master
+ 1860  heroku open
+ 1861  npm test
+ 1862  git push
+ 1863  npm test
+ 1864  git status
+ 1865  git add .
+ 1866  git commit -m 'added addTodo from'
+ 1867  git push
+ 1868  git push heroku master
+ 1869  git status
+ 1870  heroku open
+ 1871  ls
+ 1872  cd Python-2.7.13/
+ 1873  ls
+ 1874  ./configure
+ 1875  su root
+ 1876  make install
+ 1877  ls
+ 1878  python
+ 1879  ls
+ 1880  ls kodi-alexa-master/
+ 1881  ls
+ 1882  cd kodi-alexa-master/
+ 1883  ls
+ 1884  ..\Scripts\pip.exe install deploy-to-lambda
+ 1885  cd ../
+ 1886  ls
+ 1887  $ sudo apt-get install python-pip python-dev build-essential 
+ 1888  $ sudo pip install --upgrade pip 
+ 1889  sudo apt-get install python-pip python-dev build-essential 
+ 1890  sudo pip install --upgrade pip 
+ 1891  sudo pip install --upgrade virtualenv 
+ 1892  pip
+ 1893  ls
+ 1894  cd kodi-alexa-master/
+ 1895  ls
+ 1896  pip install deploy-to-lambda
+ 1897  pip install lambda-deploy
+ 1898  sudo pip install lambda-deploy
+ 1899  sudo python deploy-to-lambda.py
+ 1900  sudo pip install lambda-deploy
+ 1901  python deploy-to-lambda.py
+ 1902  sudo python deploy-to-lambda.py
+ 1903  ./python deploy-to-lambda.py
+ 1904  python deploy-to-lambda.py
+ 1905  cd ../
+ 1906  ls
+ 1907  python kodi-alexa-master/deploy-to-lambda.py 
+ 1908  cd kodi-alexa
+ 1909  ls
+ 1910  cd ./
+ 1911  cd ../
+ 1912  ls
+ 1913  cd kodi-alexa-master/
+ 1914  ls
+ 1915  cd kodi-alexa/
+ 1916  ls
+ 1917  cd ../
+ 1918  ls
+ 1919  python deploy-to-lambda.py
+ 1920  sudo -H python deploy-to-lambda.py
+ 1921  webpack -w
+ 1922  npm all
+ 1923  npm start
+ 1924  webpack -w
+ 1925  git status
+ 1926  git add .
+ 1927  git commit -m 'Added Search component'
+ 1928  git push
+ 1929  git push heroku master
+ 1930  heroku open
+ 1931  git status
+ 1932  webpack -w
+ 1933  git status
+ 1934  git add .
+ 1935  git commit -m 'Test search component'
+ 1936  git push
+ 1937  git status
+ 1938  node /playground/spread
+ 1939  node ./playground/spread.js
+ 1940  node playground/spread.js
+ 1941  git status
+ 1942  git add .
+ 1943  git status
+ 1944  git commit -m 'add playground for spread operator'
+ 1945  git commit
+ 1946  git push
+ 1947  git status
+ 1948  webpack -w
+ 1949  npm test
+ 1950  npm start
+ 1951  npm test
+ 1952  npm install node-uuid --save-dev
+ 1953  npm test
+ 1954  git status
+ 1955  git commit -am 'Complete handleAddTodo'
+ 1956  git push
+ 1957  git push heroko master
+ 1958  git push heroku master
+ 1959  heroku open
+ 1960  npm test
+ 1961  heroku open
+ 1962  npm test
+ 1963  git status
+ 1964  git commit -am 'Add toggle support'
+ 1965  git push
+ 1966  git push heroku master
+ 1967  heroku open
+ 1968  npm test
+ 1969  npm test
+ 1970  git status
+ 1971  git add .
+ 1972  git commit -m 'add localstorage support'
+ 1973  git push
+ 1974  git push heroku master
+ 1975  heroku open
+ 1976  npm test
+ 1977  git status
+ 1978  git commit -m 'added filter feature'
+ 1979  git push
+ 1980  git push heroku master
+ 1981  git status
+ 1982  git commit -am 'added filter feature'
+ 1983  gitpush
+ 1984  git push
+ 1985  git push heroku master
+ 1986  heroku open
+ 1987  npm test
+ 1988  git status
+ 1989  git push heroku master
+ 1990  heroku open
+ 1991  npm install moment@2.12.0 --save-dev
+ 1992  node playground/moment-examples.js 
+ 1993  webpack -w
+ 1994  node server
+ 1995  node server.js
+ 1996  history
+ 1997  history -ls
+ 1998  history || grep
+ 1999  grep history
+ 2000  history -grep
+ 2001  history > history.txt
