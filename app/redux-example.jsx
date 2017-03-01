@@ -5,11 +5,11 @@ import { createStore, compose, combineReducers} from 'redux'
 
 console.log('starting redux example')
 
-let nextHobbyId = 1
-let nextMovieId = 1
 
 
 
+
+// name reducer and action generators
 let nameReducer = (state = 'Anon', action) => {
   switch(action.type) {
     case 'CHANGE_NAME' :
@@ -18,7 +18,10 @@ let nameReducer = (state = 'Anon', action) => {
       return state
   }
 }
+let changeName = (name) => ({ type: 'CHANGE_NAME', name})
 
+// hobbies reducers and action generators
+let nextHobbyId = 1
 let hobbiesReducer = (state = [], action) => {
   switch (action.type) {
     case 'ADD_HOBBY' :
@@ -35,7 +38,11 @@ let hobbiesReducer = (state = [], action) => {
       return state
     }
 }
+let addHobby = (hobby) => ({ type: 'ADD_HOBBY', hobby })
+let removeHobby = (id) => ({ type: 'REMOVE_HOBBY', id })
 
+// movies reducers and action generators
+let nextMovieId = 1
 let moviesReducer = (state = [], action) => {
   switch (action.type) {
     case 'ADD_MOVIE' :
@@ -53,6 +60,9 @@ let moviesReducer = (state = [], action) => {
       return state
   }
 }
+
+let addMovie = (title, genre) => ({ type: 'ADD_MOVIE', title, genre })
+let removeMovie = (id) => ({ type: 'REMOVE_MOVIE', id })
 
 let reducer = combineReducers({
   name : nameReducer,
@@ -78,43 +88,13 @@ let unsubscribe = store.subscribe(() => {
 
 
 
-store.dispatch({
-  type: 'ADD_HOBBY',
-  hobby: 'Running'
-})
 
-store.dispatch({
-  type: 'ADD_HOBBY',
-  hobby: 'Swimming'
-})
-store.dispatch({
-  type: 'CHANGE_NAME',
-  name: 'Jason Rez'
-})
-
-store.dispatch({
-  type: 'REMOVE_HOBBY',
-  id: 2
-})
-
-store.dispatch({
-  type: 'CHANGE_NAME',
-  name: 'NeonSkull'
-})
-
-store.dispatch({
-  type: 'ADD_MOVIE',
-  title: 'Aliens',
-  genre: 'sci-fi'
-})
-
-store.dispatch({
-  type: 'ADD_MOVIE',
-  title: 'Superbad',
-  genre: 'comedy'
-})
-
-store.dispatch({
-  type: 'REMOVE_MOVIE',
-  id: 1
-})
+store.dispatch(addHobby('Biking'));
+store.dispatch(addHobby('Running'));
+store.dispatch(addHobby('Swimming'));
+store.dispatch(changeName('Jason Rez'));
+store.dispatch(removeHobby(2));
+store.dispatch(changeName('NeonSkull'));
+store.dispatch(addMovie('Aliens', 'Sci-Fi'));
+store.dispatch(addMovie('Superbad', 'Comedy'));
+store.dispatch(removeMovie(2));
