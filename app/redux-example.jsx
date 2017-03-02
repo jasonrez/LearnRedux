@@ -1,6 +1,7 @@
 
 // let redux = require('redux')
 import { createStore, compose, combineReducers} from 'redux'
+import axios from 'axios'
 
 
 console.log('starting redux example')
@@ -64,10 +65,57 @@ let moviesReducer = (state = [], action) => {
 let addMovie = (title, genre) => ({ type: 'ADD_MOVIE', title, genre })
 let removeMovie = (id) => ({ type: 'REMOVE_MOVIE', id })
 
+// map reducer and action generators
+let mapReducer = (state = {isFetching : false, url : undefined}, action) => {
+  switch(action.type) {
+    case 'START_LOCATION_FETCH' :
+      return {
+        isFetching : true,
+        url : undefined
+      }
+    case 'COMPLETE_LOCATION_FETCH' :
+      return {
+        isFetching: false,
+        url: action.url
+      }
+    default:
+      return state
+  }
+}
+
+let startLocationFetch = () => {
+  return {
+    type: 'START_LOCATION_FETCH'
+  }
+}
+
+let completeLocationFetch = (url) => {
+  return {
+    type : 'COMPLETE_LOCATION_FETCH',
+    url
+  }
+}
+
+let fetchLocation = () => {
+  store.dispatch(startLocationFetch())
+
+  axios.get('http://ipinfo.io').then(function (res) {
+    let loc = res.data.loc
+    let baseUrl = 'http://maps.google.com?q='
+
+    store.dispatch(completeLocationFetch(baseUrl + loc))
+
+  })
+
+}
+
+
+
 let reducer = combineReducers({
   name : nameReducer,
   hobbies : hobbiesReducer,
-  movies : moviesReducer
+  movies : moviesReducer,
+  map : mapReducer
 })
 
 let store = createStore(reducer, compose(window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
@@ -82,12 +130,18 @@ let unsubscribe = store.subscribe(() => {
   document.getElementById('app').innerHTML = state.name
 
   console.log('New state', store.getState())
+
+  if (state.map.isFetching) {
+    document.getElementById('app').innerHTML = 'Loading...'
+  } else if (state.map.url) {
+    document.getElementById('app').innerHTML = '<a href="' + state.map.url + '" target="_blank">View Your Location</a>'
+  }
 })
 // unsubscribe();
 
 
 
-
+fetchLocation()
 
 store.dispatch(addHobby('Biking'));
 store.dispatch(addHobby('Running'));
